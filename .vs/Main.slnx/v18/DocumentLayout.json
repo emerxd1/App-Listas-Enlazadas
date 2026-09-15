@@ -1,30 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\App-Listas-Enlazadas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|c:\\users\\andres castellon\\source\\repos\\lablistas\\main\\lablistas\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|c:\\users\\user\\source\\repos\\app-listas-enlazadas\\lablistas\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|solutionrelative:lablistas\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\lablistas\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|solutionrelative:lablistas\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|c:\\users\\user\\source\\repos\\app-listas-enlazadas\\lablistas\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|solutionrelative:lablistas\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|c:\\users\\andres castellon\\source\\repos\\lablistas\\main\\lablistas\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|solutionrelative:lablistas\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|c:\\users\\andres castellon\\source\\repos\\lablistas\\main\\lablistas\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|solutionrelative:lablistas\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|c:\\users\\andres castellon\\source\\repos\\lablistas\\main\\lablistas\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|solutionrelative:lablistas\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\lablistas\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|solutionrelative:lablistas\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|c:\\users\\user\\source\\repos\\app-listas-enlazadas\\lablistas\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FBE9048-A8E7-870F-044E-182EE1F9B5F6}|LabListas\\LabListas.csproj|solutionrelative:lablistas\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,98 +22,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Inventario.cs",
-              "DocumentMoniker": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\LabListas\\Inventario.cs",
-              "RelativeDocumentMoniker": "LabListas\\Inventario.cs",
-              "ToolTip": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\LabListas\\Inventario.cs",
-              "RelativeToolTip": "LabListas\\Inventario.cs",
-              "ViewState": "AgIAAO0AAAAAAAAAAADgvwwBAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T05:17:57.459Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Inventario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\LabListas\\Inventario.cs",
-              "RelativeDocumentMoniker": "LabListas\\Inventario.cs",
-              "ToolTip": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\LabListas\\Inventario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LabListas\\Inventario.cs [Dise\u00F1o]",
+              "Title": "Adduser.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\App-Listas-Enlazadas\\LabListas\\Adduser.cs",
+              "RelativeDocumentMoniker": "LabListas\\Adduser.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\App-Listas-Enlazadas\\LabListas\\Adduser.cs",
+              "RelativeToolTip": "LabListas\\Adduser.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAcwIcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T03:11:34.472Z",
+              "WhenOpened": "2026-09-15T21:17:02.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Adduser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\App-Listas-Enlazadas\\LabListas\\Adduser.cs",
+              "RelativeDocumentMoniker": "LabListas\\Adduser.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\App-Listas-Enlazadas\\LabListas\\Adduser.cs [Dise\u00F1o]",
+              "RelativeToolTip": "LabListas\\Adduser.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T21:16:45.764Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Shift.cs",
-              "DocumentMoniker": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\LabListas\\Shift.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\App-Listas-Enlazadas\\LabListas\\Shift.cs",
               "RelativeDocumentMoniker": "LabListas\\Shift.cs",
-              "ToolTip": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\LabListas\\Shift.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\App-Listas-Enlazadas\\LabListas\\Shift.cs",
               "RelativeToolTip": "LabListas\\Shift.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAmwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAiwDoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T02:48:14.429Z",
+              "WhenOpened": "2026-09-15T21:14:36.699Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\LabListas\\Main.cs",
-              "RelativeDocumentMoniker": "LabListas\\Main.cs",
-              "ToolTip": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\LabListas\\Main.cs",
-              "RelativeToolTip": "LabListas\\Main.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA7wDYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T02:19:01.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Shift.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\LabListas\\Shift.cs",
-              "RelativeDocumentMoniker": "LabListas\\Shift.cs",
-              "ToolTip": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\LabListas\\Shift.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LabListas\\Shift.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T02:18:29.343Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Main.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\LabListas\\Main.cs",
-              "RelativeDocumentMoniker": "LabListas\\Main.cs",
-              "ToolTip": "C:\\Users\\Andres Castellon\\source\\repos\\LabListas\\Main\\LabListas\\Main.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LabListas\\Main.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T03:41:48.733Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

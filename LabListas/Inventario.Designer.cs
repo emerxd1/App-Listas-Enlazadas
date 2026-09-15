@@ -76,9 +76,10 @@
             btnRemove.FlatAppearance.MouseOverBackColor = Color.Gray;
             btnRemove.FlatStyle = FlatStyle.Flat;
             btnRemove.Image = (Image)resources.GetObject("btnRemove.Image");
-            btnRemove.Location = new Point(39, 284);
+            btnRemove.Location = new Point(57, 379);
+            btnRemove.Margin = new Padding(3, 4, 3, 4);
             btnRemove.Name = "btnRemove";
-            btnRemove.Size = new Size(117, 40);
+            btnRemove.Size = new Size(134, 53);
             btnRemove.TabIndex = 33;
             btnRemove.Text = "Eliminar";
             btnRemove.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -90,9 +91,9 @@
             label2.Anchor = AnchorStyles.Top;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(6, 431);
+            label2.Location = new Point(19, 575);
             label2.Name = "label2";
-            label2.Size = new Size(148, 15);
+            label2.Size = new Size(187, 20);
             label2.TabIndex = 32;
             label2.Text = "Valor total del Inventario:";
             // 
@@ -105,9 +106,10 @@
             btnAdd.FlatAppearance.MouseOverBackColor = Color.Gray;
             btnAdd.FlatStyle = FlatStyle.Flat;
             btnAdd.Image = (Image)resources.GetObject("btnAdd.Image");
-            btnAdd.Location = new Point(39, 218);
+            btnAdd.Location = new Point(57, 291);
+            btnAdd.Margin = new Padding(3, 4, 3, 4);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(121, 40);
+            btnAdd.Size = new Size(149, 53);
             btnAdd.TabIndex = 31;
             btnAdd.Text = "Agregar(Last)";
             btnAdd.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -120,10 +122,11 @@
             textBox3.BackColor = Color.FromArgb(64, 64, 64);
             textBox3.BorderStyle = BorderStyle.None;
             textBox3.ForeColor = Color.Silver;
-            textBox3.Location = new Point(121, 152);
+            textBox3.Location = new Point(150, 203);
+            textBox3.Margin = new Padding(3, 4, 3, 4);
             textBox3.Name = "textBox3";
             textBox3.PlaceholderText = "Precio:";
-            textBox3.Size = new Size(100, 16);
+            textBox3.Size = new Size(114, 20);
             textBox3.TabIndex = 30;
             // 
             // textBox2
@@ -132,10 +135,11 @@
             textBox2.BackColor = Color.FromArgb(64, 64, 64);
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.ForeColor = Color.Silver;
-            textBox2.Location = new Point(184, 103);
+            textBox2.Location = new Point(222, 137);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
             textBox2.PlaceholderText = "Stock:";
-            textBox2.Size = new Size(100, 16);
+            textBox2.Size = new Size(114, 20);
             textBox2.TabIndex = 29;
             // 
             // textBox1
@@ -144,10 +148,11 @@
             textBox1.BackColor = Color.FromArgb(64, 64, 64);
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.ForeColor = Color.Silver;
-            textBox1.Location = new Point(60, 103);
+            textBox1.Location = new Point(81, 137);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Producto:";
-            textBox1.Size = new Size(100, 16);
+            textBox1.Size = new Size(114, 20);
             textBox1.TabIndex = 28;
             // 
             // label1
@@ -155,9 +160,9 @@
             label1.Anchor = AnchorStyles.Top;
             label1.AutoSize = true;
             label1.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(59, 11);
+            label1.Location = new Point(79, 15);
             label1.Name = "label1";
-            label1.Size = new Size(196, 19);
+            label1.Size = new Size(249, 23);
             label1.TabIndex = 27;
             label1.Text = "Gestión de un inventario";
             // 
@@ -170,9 +175,10 @@
             panelGradient1.ForeColor = Color.Black;
             panelGradient1.GradientBottomColor = Color.Gray;
             panelGradient1.GradientTopColor = Color.Gray;
-            panelGradient1.Location = new Point(377, 91);
+            panelGradient1.Location = new Point(443, 121);
+            panelGradient1.Margin = new Padding(3, 4, 3, 4);
             panelGradient1.Name = "panelGradient1";
-            panelGradient1.Size = new Size(400, 321);
+            panelGradient1.Size = new Size(457, 428);
             panelGradient1.TabIndex = 34;
             // 
             // dgvInventario
@@ -204,7 +210,8 @@
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
             dgvInventario.DefaultCellStyle = dataGridViewCellStyle2;
             dgvInventario.EnableHeadersVisualStyles = false;
-            dgvInventario.Location = new Point(1, 23);
+            dgvInventario.Location = new Point(1, 31);
+            dgvInventario.Margin = new Padding(3, 4, 3, 4);
             dgvInventario.Name = "dgvInventario";
             dgvInventario.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.TopCenter;
@@ -223,40 +230,49 @@
             dataGridViewCellStyle4.Padding = new Padding(2);
             dgvInventario.RowsDefaultCellStyle = dataGridViewCellStyle4;
             dgvInventario.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvInventario.Size = new Size(403, 273);
+            dgvInventario.Size = new Size(461, 364);
             dgvInventario.TabIndex = 0;
             // 
             // colProducto
             // 
             colProducto.HeaderText = "Producto";
+            colProducto.MinimumWidth = 6;
             colProducto.Name = "colProducto";
             colProducto.ReadOnly = true;
+            colProducto.Width = 125;
             // 
             // Stock
             // 
             Stock.HeaderText = "Stock";
+            Stock.MinimumWidth = 6;
             Stock.Name = "Stock";
             Stock.ReadOnly = true;
+            Stock.Width = 125;
             // 
             // Precio
             // 
             Precio.HeaderText = "Precio";
+            Precio.MinimumWidth = 6;
             Precio.Name = "Precio";
             Precio.ReadOnly = true;
+            Precio.Width = 125;
             // 
             // SubTotal
             // 
             SubTotal.HeaderText = "SubTotal";
+            SubTotal.MinimumWidth = 6;
             SubTotal.Name = "SubTotal";
             SubTotal.ReadOnly = true;
+            SubTotal.Width = 125;
             // 
             // pictureBox1
             // 
             pictureBox1.Anchor = AnchorStyles.Top;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(57, 103);
+            pictureBox1.Location = new Point(77, 137);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(103, 36);
+            pictureBox1.Size = new Size(118, 48);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 35;
             pictureBox1.TabStop = false;
@@ -265,9 +281,10 @@
             // 
             pictureBox2.Anchor = AnchorStyles.Top;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(181, 103);
+            pictureBox2.Location = new Point(219, 137);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(100, 36);
+            pictureBox2.Size = new Size(114, 48);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 36;
             pictureBox2.TabStop = false;
@@ -276,9 +293,10 @@
             // 
             pictureBox3.Anchor = AnchorStyles.Top;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(112, 154);
+            pictureBox3.Location = new Point(140, 205);
+            pictureBox3.Margin = new Padding(3, 4, 3, 4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(109, 36);
+            pictureBox3.Size = new Size(125, 48);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 37;
             pictureBox3.TabStop = false;
@@ -290,9 +308,10 @@
             cbBusqueda.FlatStyle = FlatStyle.Flat;
             cbBusqueda.ForeColor = Color.Silver;
             cbBusqueda.FormattingEnabled = true;
-            cbBusqueda.Location = new Point(491, 27);
+            cbBusqueda.Location = new Point(573, 36);
+            cbBusqueda.Margin = new Padding(3, 4, 3, 4);
             cbBusqueda.Name = "cbBusqueda";
-            cbBusqueda.Size = new Size(121, 23);
+            cbBusqueda.Size = new Size(138, 28);
             cbBusqueda.TabIndex = 38;
             // 
             // label3
@@ -300,9 +319,9 @@
             label3.Anchor = AnchorStyles.Top;
             label3.AutoSize = true;
             label3.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(395, 27);
+            label3.Location = new Point(463, 36);
             label3.Name = "label3";
-            label3.Size = new Size(90, 19);
+            label3.Size = new Size(113, 23);
             label3.TabIndex = 39;
             label3.Text = "Buscar por";
             // 
@@ -312,10 +331,11 @@
             txtBusqueda.BackColor = Color.FromArgb(64, 64, 64);
             txtBusqueda.BorderStyle = BorderStyle.FixedSingle;
             txtBusqueda.ForeColor = Color.Silver;
-            txtBusqueda.Location = new Point(618, 30);
+            txtBusqueda.Location = new Point(718, 40);
+            txtBusqueda.Margin = new Padding(3, 4, 3, 4);
             txtBusqueda.Name = "txtBusqueda";
             txtBusqueda.PlaceholderText = "Buscar";
-            txtBusqueda.Size = new Size(100, 23);
+            txtBusqueda.Size = new Size(114, 27);
             txtBusqueda.TabIndex = 40;
             // 
             // btnBuscar
@@ -327,9 +347,10 @@
             btnBuscar.FlatAppearance.MouseOverBackColor = Color.Gray;
             btnBuscar.FlatStyle = FlatStyle.Flat;
             btnBuscar.Image = (Image)resources.GetObject("btnBuscar.Image");
-            btnBuscar.Location = new Point(720, 29);
+            btnBuscar.Location = new Point(835, 39);
+            btnBuscar.Margin = new Padding(3, 4, 3, 4);
             btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new Size(24, 24);
+            btnBuscar.Size = new Size(27, 32);
             btnBuscar.TabIndex = 41;
             btnBuscar.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnBuscar.UseVisualStyleBackColor = false;
@@ -344,9 +365,10 @@
             btnReset.FlatAppearance.MouseOverBackColor = Color.Gray;
             btnReset.FlatStyle = FlatStyle.Flat;
             btnReset.Image = (Image)resources.GetObject("btnReset.Image");
-            btnReset.Location = new Point(750, 29);
+            btnReset.Location = new Point(869, 39);
+            btnReset.Margin = new Padding(3, 4, 3, 4);
             btnReset.Name = "btnReset";
-            btnReset.Size = new Size(24, 24);
+            btnReset.Size = new Size(27, 32);
             btnReset.TabIndex = 42;
             btnReset.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnReset.UseVisualStyleBackColor = false;
@@ -361,9 +383,10 @@
             button1.FlatAppearance.MouseOverBackColor = Color.Gray;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Image = (Image)resources.GetObject("button1.Image");
-            button1.Location = new Point(166, 218);
+            button1.Location = new Point(226, 291);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(121, 40);
+            button1.Size = new Size(142, 53);
             button1.TabIndex = 43;
             button1.Text = "Agregar(First)";
             button1.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -379,9 +402,10 @@
             btnAddAt.FlatAppearance.MouseOverBackColor = Color.Gray;
             btnAddAt.FlatStyle = FlatStyle.Flat;
             btnAddAt.Image = (Image)resources.GetObject("btnAddAt.Image");
-            btnAddAt.Location = new Point(166, 284);
+            btnAddAt.Location = new Point(202, 379);
+            btnAddAt.Margin = new Padding(3, 4, 3, 4);
             btnAddAt.Name = "btnAddAt";
-            btnAddAt.Size = new Size(121, 40);
+            btnAddAt.Size = new Size(138, 53);
             btnAddAt.TabIndex = 44;
             btnAddAt.Text = "Agregar por indice";
             btnAddAt.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -393,9 +417,9 @@
             lblProducto.Anchor = AnchorStyles.Top;
             lblProducto.AutoSize = true;
             lblProducto.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblProducto.Location = new Point(10, 456);
+            lblProducto.Location = new Point(23, 608);
             lblProducto.Name = "lblProducto";
-            lblProducto.Size = new Size(107, 15);
+            lblProducto.Size = new Size(136, 20);
             lblProducto.TabIndex = 45;
             lblProducto.Text = "Productos totales:";
             // 
@@ -404,9 +428,9 @@
             lblFirst.Anchor = AnchorStyles.Top;
             lblFirst.AutoSize = true;
             lblFirst.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblFirst.Location = new Point(10, 481);
+            lblFirst.Location = new Point(23, 641);
             lblFirst.Name = "lblFirst";
-            lblFirst.Size = new Size(55, 15);
+            lblFirst.Size = new Size(69, 20);
             lblFirst.TabIndex = 46;
             lblFirst.Text = "Primero:";
             // 
@@ -415,9 +439,9 @@
             lblLast.Anchor = AnchorStyles.Top;
             lblLast.AutoSize = true;
             lblLast.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblLast.Location = new Point(210, 464);
+            lblLast.Location = new Point(252, 619);
             lblLast.Name = "lblLast";
-            lblLast.Size = new Size(45, 15);
+            lblLast.Size = new Size(57, 20);
             lblLast.TabIndex = 47;
             lblLast.Text = "Ultimo";
             // 
@@ -426,18 +450,18 @@
             lblNext.Anchor = AnchorStyles.Top;
             lblNext.AutoSize = true;
             lblNext.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblNext.Location = new Point(210, 489);
+            lblNext.Location = new Point(252, 652);
             lblNext.Name = "lblNext";
-            lblNext.Size = new Size(108, 15);
+            lblNext.Size = new Size(136, 20);
             lblNext.TabIndex = 48;
             lblNext.Text = "Siguiente(Nuevo):";
             // 
             // Inventario
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
-            ClientSize = new Size(800, 511);
+            ClientSize = new Size(938, 681);
             Controls.Add(lblNext);
             Controls.Add(lblLast);
             Controls.Add(lblFirst);
@@ -460,6 +484,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox3);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Inventario";
             Text = "Inventario";
             Load += Inventario_Load;

@@ -19,3 +19,25 @@ C:\Users\Andres Castellon\source\repos\LabListas\Main\LabListas\obj\Debug\net10.
 C:\Users\Andres Castellon\source\repos\LabListas\Main\LabListas\obj\Debug\net10.0-windows\LabListas.Inventario.resources
 C:\Users\Andres Castellon\source\repos\LabListas\Main\LabListas\obj\Debug\net10.0-windows\LabListas.Main.resources
 C:\Users\Andres Castellon\source\repos\LabListas\Main\LabListas\obj\Debug\net10.0-windows\LabListas.Shift.resources
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\bin\Debug\net10.0-windows\LabListas.exe
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\bin\Debug\net10.0-windows\LabListas.deps.json
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\bin\Debug\net10.0-windows\LabListas.runtimeconfig.json
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\bin\Debug\net10.0-windows\LabListas.dll
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\bin\Debug\net10.0-windows\LabListas.pdb
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.Inventario.resources
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.Main.resources
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.Properties.Resources.resources
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.Shift.resources
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.AssemblyInfo.cs
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.sourcelink.json
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.dll
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\refint\LabListas.dll
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.pdb
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.genruntimeconfig.cache
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\ref\LabListas.dll
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.csproj.Up2Date
+C:\Users\USER\source\repos\App-Listas-Enlazadas\LabListas\obj\Debug\net10.0-windows\LabListas.adduser.resources
