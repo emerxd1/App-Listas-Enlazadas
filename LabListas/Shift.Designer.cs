@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Shift));
             panelGradient1 = new Gradient.PanelGradient();
             label4 = new Label();
@@ -42,6 +43,9 @@
             btnAdd = new Button();
             btnDelete = new Button();
             panelGradient2 = new Gradient.PanelGradient();
+            txtMil = new TextBox();
+            txtSeconds = new TextBox();
+            txtMin = new TextBox();
             btnPausa = new Button();
             btnReiniciar = new Button();
             btnIniciar = new Button();
@@ -52,6 +56,7 @@
             button5 = new Button();
             button6 = new Button();
             label7 = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             panelGradient1.SuspendLayout();
             panelGradient2.SuspendLayout();
             panelGradient3.SuspendLayout();
@@ -129,7 +134,7 @@
             btnPrevious.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnPrevious.Image = (Image)resources.GetObject("btnPrevious.Image");
             btnPrevious.ImageAlign = ContentAlignment.MiddleLeft;
-            btnPrevious.Location = new Point(33, 191);
+            btnPrevious.Location = new Point(216, 180);
             btnPrevious.Name = "btnPrevious";
             btnPrevious.Size = new Size(140, 40);
             btnPrevious.TabIndex = 1;
@@ -139,18 +144,20 @@
             // 
             // elipseControl1
             // 
-            elipseControl1.CornerRadius = 25;
+            elipseControl1.CornerRadius = 15;
             elipseControl1.TargetControl = lbTurnos;
             // 
             // lbTurnos
             // 
             lbTurnos.Anchor = AnchorStyles.Top;
-            lbTurnos.BackColor = Color.FromArgb(64, 64, 64);
-            lbTurnos.BorderStyle = BorderStyle.FixedSingle;
+            lbTurnos.BackColor = Color.Gray;
+            lbTurnos.BorderStyle = BorderStyle.None;
+            lbTurnos.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbTurnos.FormattingEnabled = true;
             lbTurnos.Location = new Point(20, 267);
             lbTurnos.Name = "lbTurnos";
-            lbTurnos.Size = new Size(330, 121);
+            lbTurnos.Size = new Size(330, 140);
+            lbTurnos.Sorted = true;
             lbTurnos.TabIndex = 6;
             // 
             // btnNext
@@ -163,7 +170,7 @@
             btnNext.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnNext.Image = (Image)resources.GetObject("btnNext.Image");
             btnNext.ImageAlign = ContentAlignment.MiddleRight;
-            btnNext.Location = new Point(515, 191);
+            btnNext.Location = new Point(365, 180);
             btnNext.Name = "btnNext";
             btnNext.Size = new Size(140, 40);
             btnNext.TabIndex = 5;
@@ -178,7 +185,7 @@
             label5.BackColor = Color.Transparent;
             label5.FlatStyle = FlatStyle.Flat;
             label5.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(29, 246);
+            label5.Location = new Point(122, 245);
             label5.Name = "label5";
             label5.Size = new Size(118, 19);
             label5.TabIndex = 4;
@@ -195,13 +202,14 @@
             btnAdd.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnAdd.Image = (Image)resources.GetObject("btnAdd.Image");
             btnAdd.ImageAlign = ContentAlignment.MiddleLeft;
-            btnAdd.Location = new Point(63, 399);
+            btnAdd.Location = new Point(62, 434);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(97, 30);
             btnAdd.TabIndex = 7;
             btnAdd.Text = "Agregar";
             btnAdd.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnDelete
             // 
@@ -213,11 +221,11 @@
             btnDelete.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnDelete.Image = (Image)resources.GetObject("btnDelete.Image");
             btnDelete.ImageAlign = ContentAlignment.MiddleLeft;
-            btnDelete.Location = new Point(210, 399);
+            btnDelete.Location = new Point(207, 434);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(99, 30);
             btnDelete.TabIndex = 8;
-            btnDelete.Text = "Agregar";
+            btnDelete.Text = "Eliminar";
             btnDelete.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnDelete.UseVisualStyleBackColor = true;
             // 
@@ -226,6 +234,9 @@
             panelGradient2.Anchor = AnchorStyles.Top;
             panelGradient2.BackColor = Color.White;
             panelGradient2.BorderRadius = 35;
+            panelGradient2.Controls.Add(txtMil);
+            panelGradient2.Controls.Add(txtSeconds);
+            panelGradient2.Controls.Add(txtMin);
             panelGradient2.Controls.Add(btnPausa);
             panelGradient2.Controls.Add(btnReiniciar);
             panelGradient2.Controls.Add(btnIniciar);
@@ -237,6 +248,45 @@
             panelGradient2.Name = "panelGradient2";
             panelGradient2.Size = new Size(312, 174);
             panelGradient2.TabIndex = 9;
+            // 
+            // txtMil
+            // 
+            txtMil.BackColor = Color.Gray;
+            txtMil.BorderStyle = BorderStyle.FixedSingle;
+            txtMil.Font = new Font("Century Gothic", 27.75F);
+            txtMil.Location = new Point(213, 47);
+            txtMil.Multiline = true;
+            txtMil.Name = "txtMil";
+            txtMil.Size = new Size(80, 53);
+            txtMil.TabIndex = 15;
+            txtMil.Text = "0000";
+            txtMil.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtSeconds
+            // 
+            txtSeconds.BackColor = Color.Gray;
+            txtSeconds.BorderStyle = BorderStyle.FixedSingle;
+            txtSeconds.Font = new Font("Century Gothic", 27.75F);
+            txtSeconds.Location = new Point(115, 47);
+            txtSeconds.Multiline = true;
+            txtSeconds.Name = "txtSeconds";
+            txtSeconds.Size = new Size(80, 53);
+            txtSeconds.TabIndex = 14;
+            txtSeconds.Text = "00";
+            txtSeconds.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtMin
+            // 
+            txtMin.BackColor = Color.Gray;
+            txtMin.BorderStyle = BorderStyle.FixedSingle;
+            txtMin.Font = new Font("Century Gothic", 27.75F);
+            txtMin.Location = new Point(15, 47);
+            txtMin.Multiline = true;
+            txtMin.Name = "txtMin";
+            txtMin.Size = new Size(80, 53);
+            txtMin.TabIndex = 13;
+            txtMin.Text = "00";
+            txtMin.TextAlign = HorizontalAlignment.Center;
             // 
             // btnPausa
             // 
@@ -256,6 +306,7 @@
             btnPausa.Text = "Pausar";
             btnPausa.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnPausa.UseVisualStyleBackColor = false;
+            btnPausa.Click += btnPausa_Click;
             // 
             // btnReiniciar
             // 
@@ -275,6 +326,7 @@
             btnReiniciar.Text = "Reinicar";
             btnReiniciar.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnReiniciar.UseVisualStyleBackColor = false;
+            btnReiniciar.Click += btnReiniciar_Click;
             // 
             // btnIniciar
             // 
@@ -294,6 +346,7 @@
             btnIniciar.Text = "Iniciar";
             btnIniciar.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnIniciar.UseVisualStyleBackColor = false;
+            btnIniciar.Click += btnIniciar_Click;
             // 
             // label6
             // 
@@ -310,7 +363,7 @@
             // 
             panelGradient3.Anchor = AnchorStyles.Top;
             panelGradient3.BackColor = Color.White;
-            panelGradient3.BorderRadius = 35;
+            panelGradient3.BorderRadius = 25;
             panelGradient3.Controls.Add(label8);
             panelGradient3.Controls.Add(button4);
             panelGradient3.Controls.Add(button5);
@@ -319,9 +372,9 @@
             panelGradient3.ForeColor = Color.Black;
             panelGradient3.GradientBottomColor = Color.Gray;
             panelGradient3.GradientTopColor = Color.Gray;
-            panelGradient3.Location = new Point(15, 473);
+            panelGradient3.Location = new Point(15, 486);
             panelGradient3.Name = "panelGradient3";
-            panelGradient3.Size = new Size(660, 26);
+            panelGradient3.Size = new Size(660, 20);
             panelGradient3.TabIndex = 13;
             // 
             // label8
@@ -329,10 +382,10 @@
             label8.AutoSize = true;
             label8.BackColor = Color.Transparent;
             label8.FlatStyle = FlatStyle.Flat;
-            label8.Font = new Font("Century Gothic", 12F);
-            label8.Location = new Point(256, 3);
+            label8.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.Location = new Point(256, 5);
             label8.Name = "label8";
-            label8.Size = new Size(228, 21);
+            label8.Size = new Size(196, 17);
             label8.TabIndex = 13;
             label8.Text = "Nodo cabeza: | Nodo Cola:";
             // 
@@ -400,6 +453,11 @@
             label7.Size = new Size(0, 19);
             label7.TabIndex = 4;
             // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Tick += timer1_Tick;
+            // 
             // Shift
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
@@ -418,6 +476,7 @@
             Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "Shift";
             Text = "Shift";
+            Load += Shift_Load;
             panelGradient1.ResumeLayout(false);
             panelGradient1.PerformLayout();
             panelGradient2.ResumeLayout(false);
@@ -453,5 +512,9 @@
         private Button button6;
         private Label label7;
         private Label label8;
+        private TextBox txtMil;
+        private TextBox txtSeconds;
+        private TextBox txtMin;
+        private System.Windows.Forms.Timer timer1;
     }
 }

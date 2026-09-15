@@ -109,7 +109,7 @@
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(125, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(713, 40);
+            panel2.Size = new Size(715, 40);
             panel2.TabIndex = 2;
             // 
             // btnMax
@@ -121,7 +121,7 @@
             btnMax.FlatAppearance.MouseOverBackColor = Color.Silver;
             btnMax.FlatStyle = FlatStyle.Flat;
             btnMax.Image = (Image)resources.GetObject("btnMax.Image");
-            btnMax.Location = new Point(682, 6);
+            btnMax.Location = new Point(684, 6);
             btnMax.Name = "btnMax";
             btnMax.Size = new Size(27, 27);
             btnMax.TabIndex = 5;
@@ -136,7 +136,7 @@
             btnMin.FlatAppearance.MouseOverBackColor = Color.Silver;
             btnMin.FlatStyle = FlatStyle.Flat;
             btnMin.Image = (Image)resources.GetObject("btnMin.Image");
-            btnMin.Location = new Point(649, 6);
+            btnMin.Location = new Point(651, 6);
             btnMin.Name = "btnMin";
             btnMin.Size = new Size(27, 27);
             btnMin.TabIndex = 4;
@@ -165,7 +165,7 @@
             btnExit.FlatAppearance.MouseOverBackColor = Color.Silver;
             btnExit.FlatStyle = FlatStyle.Flat;
             btnExit.Image = (Image)resources.GetObject("btnExit.Image");
-            btnExit.Location = new Point(616, 6);
+            btnExit.Location = new Point(618, 6);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(27, 27);
             btnExit.TabIndex = 2;
@@ -177,7 +177,7 @@
             PanelContenedor.Dock = DockStyle.Fill;
             PanelContenedor.Location = new Point(125, 40);
             PanelContenedor.Name = "PanelContenedor";
-            PanelContenedor.Size = new Size(713, 510);
+            PanelContenedor.Size = new Size(715, 510);
             PanelContenedor.TabIndex = 3;
             // 
             // elipseControl2
@@ -195,7 +195,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
-            ClientSize = new Size(838, 550);
+            ClientSize = new Size(840, 550);
             Controls.Add(PanelContenedor);
             Controls.Add(panel2);
             Controls.Add(panelMenu);

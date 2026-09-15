@@ -265,7 +265,7 @@ namespace LabListas
 
             // Pedimos el indice
             string respuesta = Interaction.InputBox(
-                "IngresE el indice donde deseas insertar el producto(0 = inicio):",
+                "Ingrese el indice donde deseas insertar el producto(0 = inicio):",
                 "Insertar producto",
                 "0"
             );
