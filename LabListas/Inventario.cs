@@ -1,13 +1,5 @@
 ﻿using LabListas.Utilities;
 using Microsoft.VisualBasic;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
 using static LabListas.Utilities.OptionsComboboxx;
 
 namespace LabListas
@@ -19,7 +11,7 @@ namespace LabListas
             InitializeComponent();
         }
 
-        ListaEnlazada<Producto> productos = new ListaEnlazada<Producto>();
+        Lista<Producto> productos = new Lista<Producto>();
 
         public class Producto
         {
@@ -31,11 +23,12 @@ namespace LabListas
 
         private void Inventario_Load(object sender, EventArgs e)
         {
-            productos = new ListaEnlazada<Producto>();
+            productos = new Lista<Producto>();
 
             productos.AddLast(new Producto { Nombre = "Teclado", Cantidad = 15, Precio = 25.09 });
             productos.AddLast(new Producto { Nombre = "Mouse", Cantidad = 30, Precio = 12.50 });
             productos.AddLast(new Producto { Nombre = "Monitor", Cantidad = 5, Precio = 199.99 });
+
 
             foreach (Producto producto in productos)
             {
@@ -54,7 +47,7 @@ namespace LabListas
                 }
             }
             cbBusqueda.ValueMember = "valor";
-            cbBusqueda.DisplayMember = "texto"; 
+            cbBusqueda.DisplayMember = "texto";
             if (cbBusqueda.Items.Count > 0)
             {
                 cbBusqueda.SelectedIndex = 0;
@@ -103,7 +96,7 @@ namespace LabListas
             lblProducto.Text = $"Productos Totales: " + dgvInventario.Rows.Count;
             lblFirst.Text = $"Primer Producto: {productos.First?.Value.Nombre ?? "N/A"}";
             lblLast.Text = $"Ultimo Producto: {productos.Last?.Value.Nombre ?? "N/A"}";
-            lblNext.Text = $"Siguiente Producto: {productos.First?.Next?.Value.Nombre ?? "N/A"}"; 
+            lblNext.Text = $"Siguiente Producto: {productos.First?.Next?.Value.Nombre ?? "N/A"}";
 
 
         }
@@ -250,7 +243,7 @@ namespace LabListas
 
         /*PARA AGREGAR POR INDICE*/
         private void button2_Click(object sender, EventArgs e)
-        { 
+        {
             // Validaciones de los campos del producto
             if (string.IsNullOrWhiteSpace(textBox1.Text) || int.TryParse(textBox1.Text, out int id) ||
                 !int.TryParse(textBox2.Text, out int cantidad) || cantidad <= 0 ||

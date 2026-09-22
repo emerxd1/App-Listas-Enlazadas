@@ -57,8 +57,9 @@
             panelMenu.Controls.Add(btnInventory);
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
+            panelMenu.Margin = new Padding(3, 4, 3, 4);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(125, 550);
+            panelMenu.Size = new Size(143, 733);
             panelMenu.TabIndex = 0;
             // 
             // button2
@@ -71,9 +72,10 @@
             button2.Font = new Font("Segoe UI Emoji", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.Image = (Image)resources.GetObject("button2.Image");
             button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(0, 127);
+            button2.Location = new Point(0, 169);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(124, 50);
+            button2.Size = new Size(143, 67);
             button2.TabIndex = 5;
             button2.Text = "Turnos";
             button2.TextAlign = ContentAlignment.MiddleRight;
@@ -90,9 +92,10 @@
             btnInventory.Font = new Font("Segoe UI Emoji", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnInventory.Image = (Image)resources.GetObject("btnInventory.Image");
             btnInventory.ImageAlign = ContentAlignment.MiddleLeft;
-            btnInventory.Location = new Point(0, 73);
+            btnInventory.Location = new Point(0, 97);
+            btnInventory.Margin = new Padding(3, 4, 3, 4);
             btnInventory.Name = "btnInventory";
-            btnInventory.Size = new Size(124, 50);
+            btnInventory.Size = new Size(143, 67);
             btnInventory.TabIndex = 4;
             btnInventory.Text = "Inventario";
             btnInventory.TextAlign = ContentAlignment.MiddleRight;
@@ -107,9 +110,10 @@
             panel2.Controls.Add(button1);
             panel2.Controls.Add(btnExit);
             panel2.Dock = DockStyle.Top;
-            panel2.Location = new Point(125, 0);
+            panel2.Location = new Point(143, 0);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(715, 40);
+            panel2.Size = new Size(817, 53);
             panel2.TabIndex = 2;
             // 
             // btnMax
@@ -121,11 +125,13 @@
             btnMax.FlatAppearance.MouseOverBackColor = Color.Silver;
             btnMax.FlatStyle = FlatStyle.Flat;
             btnMax.Image = (Image)resources.GetObject("btnMax.Image");
-            btnMax.Location = new Point(684, 6);
+            btnMax.Location = new Point(782, 8);
+            btnMax.Margin = new Padding(3, 4, 3, 4);
             btnMax.Name = "btnMax";
-            btnMax.Size = new Size(27, 27);
+            btnMax.Size = new Size(31, 36);
             btnMax.TabIndex = 5;
             btnMax.UseVisualStyleBackColor = false;
+            btnMax.Click += btnMax_Click;
             // 
             // btnMin
             // 
@@ -136,11 +142,13 @@
             btnMin.FlatAppearance.MouseOverBackColor = Color.Silver;
             btnMin.FlatStyle = FlatStyle.Flat;
             btnMin.Image = (Image)resources.GetObject("btnMin.Image");
-            btnMin.Location = new Point(651, 6);
+            btnMin.Location = new Point(744, 8);
+            btnMin.Margin = new Padding(3, 4, 3, 4);
             btnMin.Name = "btnMin";
-            btnMin.Size = new Size(27, 27);
+            btnMin.Size = new Size(31, 36);
             btnMin.TabIndex = 4;
             btnMin.UseVisualStyleBackColor = false;
+            btnMin.Click += btnMin_Click;
             // 
             // button1
             // 
@@ -149,9 +157,10 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Image = (Image)resources.GetObject("button1.Image");
-            button1.Location = new Point(5, 2);
+            button1.Location = new Point(6, 3);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(35, 35);
+            button1.Size = new Size(40, 47);
             button1.TabIndex = 3;
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
@@ -165,9 +174,10 @@
             btnExit.FlatAppearance.MouseOverBackColor = Color.Silver;
             btnExit.FlatStyle = FlatStyle.Flat;
             btnExit.Image = (Image)resources.GetObject("btnExit.Image");
-            btnExit.Location = new Point(618, 6);
+            btnExit.Location = new Point(706, 8);
+            btnExit.Margin = new Padding(3, 4, 3, 4);
             btnExit.Name = "btnExit";
-            btnExit.Size = new Size(27, 27);
+            btnExit.Size = new Size(31, 36);
             btnExit.TabIndex = 2;
             btnExit.UseVisualStyleBackColor = false;
             btnExit.Click += button1_Click_1;
@@ -175,9 +185,10 @@
             // PanelContenedor
             // 
             PanelContenedor.Dock = DockStyle.Fill;
-            PanelContenedor.Location = new Point(125, 40);
+            PanelContenedor.Location = new Point(143, 53);
+            PanelContenedor.Margin = new Padding(3, 4, 3, 4);
             PanelContenedor.Name = "PanelContenedor";
-            PanelContenedor.Size = new Size(715, 510);
+            PanelContenedor.Size = new Size(817, 680);
             PanelContenedor.TabIndex = 3;
             // 
             // elipseControl2
@@ -192,14 +203,15 @@
             // 
             // Main
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
-            ClientSize = new Size(840, 550);
+            ClientSize = new Size(960, 733);
             Controls.Add(PanelContenedor);
             Controls.Add(panel2);
             Controls.Add(panelMenu);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Main";
             Text = "Form1";
             panelMenu.ResumeLayout(false);

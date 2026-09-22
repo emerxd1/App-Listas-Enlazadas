@@ -15,14 +15,14 @@ namespace LabListas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (panelMenu.Width == 125)
+            if (panelMenu.Width == 145)
             {
                 panelMenu.Width = 50
                     ;
             }
             else
             {
-                panelMenu.Width = 125;
+                panelMenu.Width = 145;
             }
         }
         private void btInventory_Click(object sender, EventArgs e)
@@ -54,6 +54,18 @@ namespace LabListas
         {
             MostrarFormulario(new Shift());
         }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnMax_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+
+        }
+        
     }
 }
 
